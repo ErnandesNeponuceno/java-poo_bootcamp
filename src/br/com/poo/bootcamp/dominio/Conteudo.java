@@ -3,6 +3,7 @@ package br.com.poo.bootcamp.dominio;
 public abstract class Conteudo {
 
     protected static final double XP_PADRAO = 10;
+    public Object setCargaHoraria;
 
     private String titulo;
     private String descricao;
